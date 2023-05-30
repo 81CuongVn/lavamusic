@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@discordjs/rest': ^1.0.0
   chalk: ^4.1.2
-  delay: ^5.0.0
+  delay: ^6.0.0
   discord.js: 14.0.2
   dotenv: ^10.0.0
   erela.js: ^2.3.3
@@ -23,7 +23,7 @@ specifiers:
 dependencies:
   '@discordjs/rest': 1.0.0
   chalk: 4.1.2
-  delay: 5.0.0
+  delay: 6.0.0
   discord.js: 14.0.2
   dotenv: 10.0.0
   erela.js: 2.3.3
@@ -246,9 +246,9 @@ packages:
       ms: 2.1.2
     dev: false
 
-  /delay/5.0.0:
-    resolution: {integrity: sha512-ReEBKkIfe4ya47wlPYf/gu5ib6yUG0/Aez0JQZQz94kiWtRQvZIQbTiehsnwHvLSWJnQdhVeqYue7Id1dKr0qw==}
-    engines: {node: '>=10'}
+  /delay/6.0.0:
+    resolution: {integrity: sha512-2NJozoOHQ4NuZuVIr5CWd0iiLVIRSDepakaovIN+9eIDHEhdCAEvSy2cuf1DCrPPQLvHmbqTHODlhHg8UCy4zw==}
+    engines: {node: '>=16'}
     dev: false
 
   /delayed-stream/1.0.0:
