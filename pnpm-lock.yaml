@@ -38,7 +38,7 @@ dependencies:
   ms: 2.1.3
   node-fetch: 2.6.7
   node-superfetch: 0.2.3
-  systeminformation: 5.12.1
+  systeminformation: 5.21.7
 
 packages:
 
@@ -185,7 +185,7 @@ packages:
       css-what: 6.1.0
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.0.1
+      domutils: 3.1.0
     dev: false
 
   /cheerio/1.0.0-rc.12:
@@ -195,9 +195,9 @@ packages:
       cheerio-select: 2.1.0
       dom-serializer: 2.0.0
       domhandler: 5.0.3
-      domutils: 3.0.1
-      htmlparser2: 8.0.1
-      parse5: 7.0.0
+      domutils: 3.1.0
+      htmlparser2: 8.0.2
+      parse5: 7.1.2
       parse5-htmlparser2-tree-adapter: 7.0.0
     dev: false
 
@@ -225,7 +225,7 @@ packages:
       boolbase: 1.0.0
       css-what: 6.1.0
       domhandler: 5.0.3
-      domutils: 3.0.1
+      domutils: 3.1.0
       nth-check: 2.1.1
     dev: false
 
@@ -290,7 +290,7 @@ packages:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      entities: 4.3.1
+      entities: 4.5.0
     dev: false
 
   /domelementtype/2.3.0:
@@ -304,8 +304,8 @@ packages:
       domelementtype: 2.3.0
     dev: false
 
-  /domutils/3.0.1:
-    resolution: {integrity: sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==}
+  /domutils/3.1.0:
+    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
     dependencies:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
@@ -317,8 +317,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /entities/4.3.1:
-    resolution: {integrity: sha512-o4q/dYJlmyjP2zfnaWDUC6A3BQFmVTX+tZPezK7k0GLSU9QYCauscf5Y+qcEPzKL+EixVouYDgLQK5H9GrLpkg==}
+  /entities/4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
     dev: false
 
@@ -413,13 +413,13 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /htmlparser2/8.0.1:
-    resolution: {integrity: sha512-4lVbmc1diZC7GUJQtRQ5yBAeUCL1exyMwmForWkRLnwyzWBFxN633SALPMGYaWZvKe9j1pRZJpauvmxENSp/EA==}
+  /htmlparser2/8.0.2:
+    resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.0.1
-      entities: 4.3.1
+      domutils: 3.1.0
+      entities: 4.5.0
     dev: false
 
   /ieee754/1.2.1:
@@ -563,13 +563,13 @@ packages:
     resolution: {integrity: sha512-B77tOZrqqfUfnVcOrUvfdLbz4pu4RopLD/4vmu3HUPswwTA8OH0EMW9BlWR2B0RCoiZRAHEUu7IxeP1Pd1UU+g==}
     dependencies:
       domhandler: 5.0.3
-      parse5: 7.0.0
+      parse5: 7.1.2
     dev: false
 
-  /parse5/7.0.0:
-    resolution: {integrity: sha512-y/t8IXSPWTuRZqXc0ajH/UwDj4mnqLEbSttNbThcFhGrZuOyoyvNBO85PBp2jQa55wY9d07PBNjsK8ZP3K5U6g==}
+  /parse5/7.1.2:
+    resolution: {integrity: sha512-Czj1WaSVpaoj0wbhMzLmWD69anp2WH7FXMB9n1Sy8/ZFF9jolSQVMu1Ij5WIyGmcBmhk7EOndpO4mIpihVqAXw==}
     dependencies:
-      entities: 4.3.1
+      entities: 4.5.0
     dev: false
 
   /peek-readable/5.0.0-alpha.5:
@@ -661,8 +661,8 @@ packages:
       has-flag: 4.0.0
     dev: false
 
-  /systeminformation/5.12.1:
-    resolution: {integrity: sha512-qAV0xSeSJlg0ZHmQ1T2rLrL54SATalBx6v4T8Sd5s17pEm6saX3LKzlPhfPx+EfT91y9yhRYnKhnMoLTFkxbqw==}
+  /systeminformation/5.21.7:
+    resolution: {integrity: sha512-K3LjnajrazTLTD61+87DFg8IXFk5ljx6nSBqB8pQLtC1UPivAjDtTYGPZ8jaBFxcesPaCOkvLRtBq+RFscrsLw==}
     engines: {node: '>=8.0.0'}
     os: [darwin, linux, win32, freebsd, openbsd, netbsd, sunos, android]
     hasBin: true
